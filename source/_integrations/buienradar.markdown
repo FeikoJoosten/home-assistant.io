@@ -116,6 +116,16 @@ country_code:
   required: false
   default: NL
   type: string
+history:
+  description: "This allows you to preview the past weather activity. Only a value between `0` and `18` is accepted."
+  required: false
+  type: int
+  default: 3
+forecast:
+  description: "This allows you to preview the predicted weather activity. Only a value between `0` and `18` is accepted."
+  required: false
+  type: int
+  default: 3
 {% endconfiguration %}
 
 ### The `name` Variable
